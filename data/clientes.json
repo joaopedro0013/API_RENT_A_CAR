@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "nome": "Pedro"
+  },
+  {
+    "id": 2,
+    "nome": "Arnaldo",
+    "sobrenome": "Benfeitor",
+    "CPF": "712.314.614-10",
+    "Morada": "Mato Grosso"
+  }
+]

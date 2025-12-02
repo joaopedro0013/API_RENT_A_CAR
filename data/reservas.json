@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "clienteId": 2,
+    "carroId": 1,
+    "dias": 3,
+    "status": "ativa"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "Marca": "Toyota",
+    "Modelo": "Hilux",
+    "AnoFabrico": 2021,
+    "Matricula": "LD-01-02-HI",
+    "disponivel": false
+  },
+  {
+    "id": 2,
+    "Marca": "Suzuki",
+    "Modelo": "Swift",
+    "AnoFabrico": 2021,
+    "Matricula": "LD-98-02-FG",
+    "disponivel": true
+  }
+]
