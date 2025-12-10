@@ -133,6 +133,22 @@ app.put('/reservas/:id/finalizar', (req, res) => {
 
     res.json({ mensagem: "Reserva finalizada!" });
 });
+
+// Delete - deletar uma reserva
+app.delete('/reservas/:id', (req, res) => {
+    const reservas = loadData("reservas.json");
+    const id = parseInt(req.params.id);
+    const index = reservas.findIndex(r => r.id === id);
+
+    if (index === -1) {
+        return res.status(400).json({ erro: "Reserva não encontrada!" });
+    }
+
+    reservas.splice(index, 1);
+    saveData("reservas.json", reservas);
+
+    res.json({ mensagem: "Reserva deletada!" });
+});
  
 
 app.listen(port, () => {
